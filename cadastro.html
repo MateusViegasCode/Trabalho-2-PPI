@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Realize seu cadastro na Clínica ABC Health.">
+    <title>Cadastro - Clínica ABC Health</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Clínica ABC Health</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Formulário de Cadastro de Paciente</h2>
+        <form action="cadastraPaciente.php" method="POST">
+            <p>
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required>
+            </p>
+
+            <p>
+                <label for="email">E-mail de Contato:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="telefone">Telefone:</label><br>
+                <input type="text" id="telefone" name="telefone" required>
+            </p>
+
+            <p>
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" id="cidade" name="cidade" required>
+            </p>
+
+            <p>
+                <button type="submit">Cadastrar</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>Av. João Naves de Avila, Santa Mônica, Uberlândia</p>
+    </footer>
+
+</body>
+
+</html>
